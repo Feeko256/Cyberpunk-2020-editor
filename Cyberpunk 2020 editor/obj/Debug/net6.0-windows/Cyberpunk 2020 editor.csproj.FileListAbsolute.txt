@@ -1,0 +1,51 @@
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Cyberpunk 2020 editor.exe
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Cyberpunk 2020 editor.deps.json
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Cyberpunk 2020 editor.runtimeconfig.json
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Cyberpunk 2020 editor.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Cyberpunk 2020 editor.pdb
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.csproj.AssemblyReference.cache
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\App.g.cs
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor_MarkupCompile.cache
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor_MarkupCompile.lref
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\MainWindow.baml
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.g.resources
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.GeneratedMSBuildEditorConfig.editorconfig
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.AssemblyInfoInputs.cache
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.AssemblyInfo.cs
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.csproj.CoreCompileInputs.cache
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\refint\Cyberpunk 2020 editor.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.pdb
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.genruntimeconfig.cache
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\ref\Cyberpunk 2020 editor.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\PdfSharp.Charting.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\PdfSharp.Quality.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\PdfSharp.Snippets.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\PdfSharp.System.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\PdfSharp.WPFonts.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\PdfSharp.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\de\PdfSharp.Charting.resources.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\bin\Debug\net6.0-windows\de\PdfSharp.resources.dll
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Cyberpunk 2020 editor.csproj.CopyComplete
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Status.g.cs
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Status.baml
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Role.g.cs
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\Role.baml
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\PointsAge.g.cs
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\PointsAge.baml
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\LocArm.g.cs
+D:\YandexDisk\YandexDisk\Cyberpunk 2020 editor\Cyberpunk 2020 editor\obj\Debug\net6.0-windows\LocArm.baml

@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="Cyberpunk_2020_editor.PointsAge"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+
+             mc:Ignorable="d">
+    <WrapPanel>
+        <TextBlock FontWeight="Bold" Text="ОЧКИ ПЕРСОНАЖА"
+                   FontSize="17" Background="Black" Foreground="White"
+                   Margin="5" Padding="5" VerticalAlignment="Center">
+        </TextBlock>
+        <TextBox TextWrapping="Wrap" FontWeight="Bold" MinWidth="45" MaxWidth="50" FontSize="15"
+                 BorderThickness="3" BorderBrush="Black"
+                 Margin="5">
+        </TextBox>
+        <TextBlock FontWeight="Bold" Text="ВОЗРАСТ"
+                   FontSize="17" Background="Black" Foreground="White"
+                   Margin="5" Padding="5" VerticalAlignment="Center">
+        </TextBlock>
+        <TextBox TextWrapping="Wrap" FontWeight="Bold" MinWidth="45" MaxWidth="50" FontSize="15"
+                 BorderThickness="3" BorderBrush="Black"
+                 Margin="5">
+        </TextBox>
+    </WrapPanel>
+</UserControl>

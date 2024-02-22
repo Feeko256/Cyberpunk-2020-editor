@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="Cyberpunk_2020_editor.Role"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d">
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"
+                    Orientation="Horizontal">
+            <TextBlock FontWeight="Bold" Text="РОЛЬ"
+                       FontSize="17" Background="Black" Foreground="White"
+                       Margin="5" Padding="5" VerticalAlignment="Center" HorizontalAlignment="Left">
+            </TextBlock>
+            <RadioButton GroupName="ROLE" Margin="6" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="Соло" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+            <RadioButton GroupName="ROLE" Margin="1" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="Рокер" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+            <RadioButton GroupName="ROLE" Margin="1" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="Нетранер" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+            <RadioButton GroupName="ROLE" Margin="1" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="СМИ" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+            <RadioButton GroupName="ROLE" Margin="1" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="Дикий" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <RadioButton GroupName="ROLE" Margin="1" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="Фиксер" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+            <RadioButton GroupName="ROLE" Margin="1" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="Коп" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+            <RadioButton GroupName="ROLE" Margin="1" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="Корпорат" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+            <RadioButton GroupName="ROLE" Margin="1" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="Техник" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+            <RadioButton GroupName="ROLE" Margin="1" HorizontalAlignment="Left"
+                         VerticalAlignment="Center"
+                         VerticalContentAlignment="Center" Content="Медик" FontSize="13"
+                         FontWeight="Bold">
+            </RadioButton>
+        </StackPanel>
+    </Grid>
+
+</UserControl>

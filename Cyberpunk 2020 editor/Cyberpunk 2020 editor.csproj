@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <RootNamespace>Cyberpunk_2020_editor</RootNamespace>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="PDFsharp" Version="6.1.0-preview-1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resource\CyberPunk.gif" />
+      <Resource Include="Resource\CyberPunk.gif" />
+      <None Remove="Resource\61KwXdB5PDL._AC_UF894,1000_QL80_.jpg" />
+      <Resource Include="Resource\61KwXdB5PDL._AC_UF894,1000_QL80_.jpg" />
+    </ItemGroup>
+
+</Project>
