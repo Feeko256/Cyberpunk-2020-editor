@@ -33,7 +33,7 @@
                       VerticalAlignment="Center">
             </TextBox>
         </StackPanel>
-        <StackPanel Grid.Column="4" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+        <StackPanel Grid.Column="4" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
             <TextBlock FontWeight="Bold" Text="РЕФ"
                        FontSize="15" Margin="5"  VerticalAlignment="Center">
             </TextBlock>

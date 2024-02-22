@@ -1,22 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
 
-namespace Cyberpunk_2020_editor
+namespace Cyberpunk_2020_editor.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -32,7 +23,12 @@ namespace Cyberpunk_2020_editor
         {
             // Создаем новый документ PDF
             PdfDocument document = new PdfDocument();
-            document.Info.Title = "GroupBox PDF";
+            if (!string.IsNullOrEmpty(charactername.Text))
+                document.Info.Title = charactername.Text;
+            else
+            {
+                document.Info.Title = "Cyberpunk character";
+            }
 
             // Добавляем страницу формата A4
             PdfPage page = document.AddPage();
@@ -58,6 +54,7 @@ namespace Cyberpunk_2020_editor
             // Сохраняем документ PDF
             document.Save("page.pdf");
         }
+
         public BitmapSource RenderGroupBoxToBitmap(GroupBox groupBox)
         {
             // Устанавливаем размеры для рендера
@@ -65,7 +62,8 @@ namespace Cyberpunk_2020_editor
             double height = page_one.ActualHeight * 300 / 96;
 
             // Создаем RenderTargetBitmap с указанными размерами и DPI
-            RenderTargetBitmap renderBitmap = new RenderTargetBitmap((int)width, (int)height, 96, 96, PixelFormats.Pbgra32);
+            RenderTargetBitmap renderBitmap =
+                new RenderTargetBitmap((int)width, (int)height, 96, 96, PixelFormats.Pbgra32);
 
             // Вызываем Measure и Arrange, чтобы GroupBox "подготовился" к рендерингу
             groupBox.Measure(new Size(width, height));
@@ -76,13 +74,57 @@ namespace Cyberpunk_2020_editor
             using (DrawingContext drawingContext = drawingVisual.RenderOpen())
             {
                 // Рисуем содержимое GroupBox
-                drawingContext.DrawRectangle(new VisualBrush(groupBox), null, new Rect(new Point(), new Size(width, height)));
+                drawingContext.DrawRectangle(new VisualBrush(groupBox), null,
+                    new Rect(new Point(), new Size(width, height)));
             }
 
             // Рендерим DrawingVisual в RenderTargetBitmap
             renderBitmap.Render(drawingVisual);
 
             return renderBitmap;
+        }
+
+        /*    private void MinimizeButton_OnClick(object sender, RoutedEventArgs e)
+            {
+                App.Current.MainWindow.WindowState = WindowState.Minimized;
+            }
+    
+            private void MaximizeButton_OnClick(object sender, RoutedEventArgs e)
+            {
+                maximize();
+            }
+    
+            private void CloseButton_OnClick(object sender, RoutedEventArgs e)
+            {
+                Application.Current.MainWindow.Close();
+            }
+    
+            private void maximize()
+            {
+                if (App.Current.MainWindow.WindowState == WindowState.Maximized)
+                {
+                    App.Current.MainWindow.WindowState = WindowState.Normal;
+                }
+                else if (App.Current.MainWindow.WindowState == WindowState.Normal)
+                {
+                    App.Current.MainWindow.WindowState = WindowState.Maximized;
+                }
+            }
+    
+            private void UIElement_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+            {
+                if (e.ClickCount == 2)
+                {
+                    maximize();
+                }
+                else
+                {
+                    Application.Current.MainWindow.DragMove();
+                }
+            }*/
+        private void AddPhoto_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
